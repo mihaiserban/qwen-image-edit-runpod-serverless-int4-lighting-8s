@@ -4,7 +4,7 @@ from io import BytesIO
 import os
 import time
 
-url = "https://api.runpod.ai/v2/s8irofmg23ebgx/run"
+url = "https://api.runpod.ai/v2/3trbbiy2f7q151/run"
 
 base64_input = ""
 RUNPOD_API_KEY = os.getenv("RUNPOD_API_KEY")
@@ -40,7 +40,7 @@ job_id = job_data["id"]
 print(f"✅ Job submitted: {job_id}")
 
 # Poll for status
-status_url = f"https://api.runpod.ai/v2/s8irofmg23ebgx/status/{job_id}"
+status_url = f"https://api.runpod.ai/v2/3trbbiy2f7q151/status/{job_id}"
 max_wait = 600  # 10 minutes max
 start_time = time.time()
 
