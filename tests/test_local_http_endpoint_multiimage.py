@@ -4,6 +4,7 @@ from io import BytesIO
 
 url = "http://localhost:3000/"
 
+
 base64_input = ""
 base64_input2 = ""
 
